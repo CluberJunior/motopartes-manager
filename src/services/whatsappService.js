@@ -1,4 +1,4 @@
-const WHATSAPP_API_URL = import.meta.env.VITE_WHATSAPP_API_URL || 'http://localhost:3001';
+const WHATSAPP_API_URL = import.meta.env.VITE_WHATSAPP_API_URL ?? 'http://localhost:3001';
 
 /**
  * Get WhatsApp connection status

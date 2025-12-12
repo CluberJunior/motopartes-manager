@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "tunnel": "lt --port 5173 --subdomain motopartes",
-    "install:all": "npm install && cd whatsapp-backend && npm install && cd .."
+    "install:all": "npm install && cd whatsapp-backend && npm install && cd ..",
+    "start": "vite preview --host --port 3000"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.87.1",
